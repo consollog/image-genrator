@@ -100,19 +100,35 @@ form {
     display: none;
 }
 
+/* .loading {
+    display: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.loading img {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+}
+
+.loading.show {
+    display: block;
+} */
+
 @media screen and (max-width:768px) {
-    .search-results{
+    .search-results {
         padding: 10px;
     }
-    
-    
-    .search-result{
-        width: 45%;
+
+
+    .search-result {
+        width: 30%;
     }
 }
 
 @media screen and (max-width:480px) {
-    .search-result{
+    .search-result {
         width: 100%;
     }
 }
